@@ -1,6 +1,6 @@
 <!-- index.xml -->
 <Alloy>
-   <TabGroup>
+   <TabGroup id="tabGroup" onOpen="doOpen">
       <!-- Tabs included via <Require> tag -->
       <Require id="feedController" src="feed"/>
       <Require id="friendsController" src="friends"/>
